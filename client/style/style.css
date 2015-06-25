@@ -24,6 +24,7 @@
 }
 
 .eachNavLink:visited {
+  color: white;
   text-decoration: none;
 }
 
@@ -71,14 +72,14 @@
 /*====================================
               About Me
 ====================================*/
-.aboutMe {
-  margin-top: 2%;
-  height: 40vh;
+.aboutTop {
+  margin-top: 2.5%;
+  height: 60vh;
 }
 
 .aboutIcon {
   margin-top: 5%;
-  color: white;
+  color: black;
 }
 
 .aboutIcon:hover {
@@ -91,6 +92,40 @@
   width: 160px;
 }
 
+.aboutCode {
+  margin: 3% 0 10% 0;
+}
+
+.aboutCodeCenter {
+  position:absolute;
+  height: 110px;
+  width: 110px;
+  text-align: center;
+}
+
+.aboutPercent {
+  position: absolute;
+  display: inline-block;
+  margin-left: 50px;
+  line-height: 120px;
+  z-index: 2;
+}
+
+.aboutBottom {
+  padding-top: 3%;
+  height: 40vh;
+  font-size: 18px;
+  color: black;
+  background-color: white;
+}
+
+.aboutFont {
+  font-weight: bold;
+}
+
+.aboutTechName {
+  font-size: 20px;
+}
 /*====================================
               Projects
 ====================================*/
@@ -106,6 +141,37 @@
   height: 100px;
   width: 200px;
 }
+
+/*====================================
+              Contact
+====================================*/
+
+.contactForm {
+  margin-top: 1%;
+}
+.contactFormSpacing {
+  margin-bottom: 10px;
+}
+
+.contactIcon {
+
+  color: white;
+}
+
+.contactIcon:hover {
+  color: #0085d1;
+}
+
+.contactTop {
+  margin-top: 5%;
+}
+
+.contactFont {
+  font-family: 'Dancing Script', cursive;
+}
+
+
+
 
 
 
