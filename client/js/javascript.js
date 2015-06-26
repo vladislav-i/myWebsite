@@ -26,11 +26,17 @@ function MainCtrl($scope) {
     size: '120'
   };
 
+  //form data
+  var data={};
   // contactform
   $scope.sendMessage = function() {
-    var contactName;
-    console.log("here");
-    var contactEmail;
-    var contactMessage;
+    $scope.contactName;
+    $scope.contactEmail;
+    $scope.contactMessage;
+
+    data["name"]=$scope.contactName;
+    data["email"];
+    data["message"];
+    console.log(data);
   }
 }

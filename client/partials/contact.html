@@ -1,4 +1,7 @@
 <div class="container">
+  {{contactName}}
+  {{contactEmail}}
+  {{contactMessage}}
   <div class="row">
     <div class="col-xl-12 contactFont">
       <div class="col-xs-offset-2 col-xs-10 contactTop">
@@ -23,20 +26,20 @@
         <form name="myForm">
           <div class="contactFormSpacing">
             <!-- name -->
-            <input type="text" class="form-control" id="nameInput()" placeholder="Name" required>
+            <input type="text" class="form-control" id="nameInput()" placeholder="Name" ng-model="contactName" required>
           </div>
           
           <div class="contactFormSpacing">
             <!-- email -->
-            <input type="email" class="form-control" id="emailInput" placeholder="Email" required>
+            <input type="email" class="form-control" id="emailInput" placeholder="Email" ng-model="contactEmail" required>
           </div>
 
           <div class="contactFormSpacing">
             <!-- message -->
-            <textarea class="form-control" rows="3" placeholder="Message" required></textarea>
+            <textarea class="form-control" rows="3" placeholder="Message" ng-model="contactMessage" required></textarea>
           </div>
 
-          <button type="submit" class="btn btn-default" ng-click="sendMessage">Send Message</button>
+          <button type="submit" class="btn btn-default" ng-click="sendMessage()">Send Message</button>
         </div>
       </form>
     </div>
