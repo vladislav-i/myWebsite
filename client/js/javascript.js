@@ -37,6 +37,12 @@ function MainCtrl($scope) {
     data["name"]=$scope.contactName;
     data["email"];
     data["message"];
-    console.log(data);
+    console.log($scope.contactName);
+  }
+
+  //display my email
+  $scope.displayEmail = function() {
+    var str ="You can email me at saintmz3@gmail.com"
+    $scope.displayEmail=str;
   }
 }

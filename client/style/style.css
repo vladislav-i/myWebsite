@@ -167,8 +167,16 @@
 }
 
 .contactFont {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Source Sans Pro', sans-serif;
 }
+
+.contactEmail {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 
 
 

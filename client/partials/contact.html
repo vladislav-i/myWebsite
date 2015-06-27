@@ -18,8 +18,12 @@
           <a href="https://www.linkedin.com/in/vladilin"><i class="fa fa-linkedin fa-4x contactIcon"></i></a>
         </div>
         <div class="col-xs-2">
-          <a href="saintmz3@gmail.com"><i class="fa fa-envelope-o fa-4x contactIcon"></i></a>
+          <i class="fa fa-envelope-o fa-4x contactIcon" ng-click="displayEmail()"></i>
         </div>
+      </div>
+
+      <div class="center">
+        {{displayEmail}}
       </div>
 
       <div class="col-xs-offset-2 col-xs-8 contactForm">
